@@ -44,6 +44,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.logo {
+  max-height: 50px;
+}
 .wrap-container {
   width: 100%;
   max-width: 1080px;
@@ -65,7 +68,7 @@ header .wrap-container {
   padding: 15px;
 }
 h1 {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   color: #ff6913;
   font-weight: bold;
 }
