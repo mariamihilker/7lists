@@ -1,0 +1,1493 @@
+
+/****************************************
+Section: Overall, mainPage
+Element: Standard Wrap
+***************************************/
+
+.WrapForStandardMargin {
+	margin-bottom: 17px;
+	width: 368px;
+}
+
+.WrapForExtMargin {
+	margin-bottom: 35px;
+	width: 368px;
+}
+
+.WrapForEditBox {
+	padding-top: 5px;
+	padding-bottom: 17px;
+}
+
+/****************************************
+Section: Homepage
+Element: Hot Topics Box
+***************************************/
+
+.pubhottopbox {
+	background: transparent url(/images/pub_hot_topbox.png) 0px 0px no-repeat;
+	height: 155px;
+	margin-top: 25px;
+	_margin-top: -1px;
+	width: 340px;
+}
+
+/* corrected position for IE7 */
+*+html .pubhottopbox { margin-top: -1px; }
+
+.pubhottopbox_tab {
+	background: transparent url(/images/pub_hot_topbox.png) 0px 25px no-repeat;
+	_background: transparent url(/images/pub_hot_topbox.png) 0px 0px no-repeat;
+}
+
+.pubhotbg h3,
+.pubhottitle {
+	font-family:Arial, sans-serif !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+}
+
+.pubhotbg h3 a {
+	color: #b5c703 !important;
+	font-weight: bold !important;
+}
+
+.pubhotrepeat {
+	float:left;
+	background: transparent url(/images/pub_hot_tabrepeat.png) 0px 0px repeat-x;
+	height:20px;
+	padding:6px 0 0 0;
+	width: auto;
+}
+
+.pubhotrepeat a,
+.pubhotrepeat span { font-weight: bold; }
+
+.pubhottabl {
+	float: left;
+	left:0;
+	top:0;
+	background: transparent url(/images/pub_hot_tabl.png) 0px 0px no-repeat;
+	-background: transparent url(/images/pub_hot_tabl.gif) 0px 0px no-repeat;
+	width: 15px;
+	height: 26px;
+}
+
+.pubhottabr {
+	float:left;
+	background: transparent url(/images/pub_hot_tabr.png) 0px 0px no-repeat;
+	-background: transparent url(/images/pub_hot_tabr.gif) 0px 0px no-repeat;
+	width: 15px;
+	height: 26px;
+}
+
+.pubhotab_ohne {
+	position:relative;
+	background: transparent;
+}
+
+.pubhotab .noborderbox { margin-left: 0 !important; }
+
+.pubhotab .righttext {
+	float:left;
+	margin-left:10px;
+	width:170px;
+}
+
+.pubhotbg .container {
+	background: none !important;
+	padding-top:1px;
+}
+
+/****************************************
+Section: Edit own TopList
+Element: Editmode
+***************************************/
+
+.lefttextInner { height: 42px; }
+
+/****************************************
+Section: _detail
+Element: randomBar, was meinst du, 
+***************************************/
+
+.insertitem #widget_dijit_form_ComboBox_0 {
+	color: #FF6913;
+	border: 1px solid #FF6913;
+	width:260px;
+}
+
+.detailOtherUsers { margin-bottom: 3px; }
+
+/* Special Case on RelatedListers*/
+.sameListers .detailOtherUsers { float: left; }
+
+/****************************************
+Section: _buddy
+Element: Percent/Matching, myFriendRequests
+***************************************/
+
+.userteaser {
+	width: 178px;
+	background: #EEF4F9 url(/images/topshadeblue.gif) 0 0 repeat-x !important;
+	margin-bottom: 1px;
+	position: relative;
+	height: 121px;
+}
+
+.listerWith .userteaser { margin-bottom: 15px; }
+
+.profileBuddies {
+	background:#FFFFFF url(/images/topshadeblue.gif) repeat-x scroll 0 0 !important;
+	height:131px;
+	margin-bottom: 4px;
+}
+
+#buddy_list .userteaser {
+	height: 131px;
+	margin-bottom: 4px;
+}
+
+.userteaser_list {
+	width: 178px;
+	background: #EEF4F9 url(/images/topshadeblue.gif) 0 0 repeat-x !important;
+	margin-bottom: 1px;
+	position: relative;
+	height: 110px;
+}
+
+.userteaser_top { margin-top: -2px; }
+
+.female,
+.male {
+	font-size: 0.73em;
+	color: #A1BF17;
+	font-family: Arial, sans-serif;
+	font-weight:bold;
+}
+
+.female_big,
+.male_big {
+	font-size: 0.8em;
+	color: #A1BF17;
+	font-family: Verdana, sans-serif;
+	font-weight:bold;
+}
+
+.female_small,
+.male_small {
+	font-size: 0.78em;
+	color: #A1BF17;
+	font-family: Arial, sans-serif;
+}
+
+.miniuserpic {
+	display:block;
+	width: 40px;
+	height: 40px;
+	background: white url(/images/miniuserpic.gif) 0 0 no-repeat;
+	position: relative;
+	float: left;
+}
+
+.userpic {
+	display:block;
+	width: 74px;
+	height: 74px;
+	background: white url(/images/userpicoff.gif) 0 0 no-repeat;
+	position: relative;
+}
+
+.percent {
+	font-family: Trebuchet, Arial, sans-serif;
+	display:block;
+	margin-top: 10px;
+	color: #77BCE6;
+	font-size: 4.8em;
+	font-weight: normal;
+	text-align: right;
+	margin-bottom: -6px;
+}
+
+.percent span {
+	font-weight: normal;
+	font-size: 0.6em;
+}
+
+.detailOtherUsers .credits {
+	left:5px;
+	position:absolute;
+	top:27px;
+}
+
+.detailOtherUsers .matching_spacer {
+	height:50px;
+	position:absolute;
+	right:6px;
+}
+
+.detailOtherUsers .matching_spacer .percent { margin-top: 15px; }
+
+.detailOtherUsers .textUnderPercent {
+	color: #009DDF;
+	position:absolute;
+	right:0;
+	top:70px;
+}
+
+.userMatch_buddylist {
+	padding-top:6px;
+	width:170px;
+}
+
+.myFriendRequests { widht: 20px; }
+
+/****************************************
+Section: Overall
+Element: Container
+***************************************/
+
+.infoIcon {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+
+.infoIconDown {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+
+.container {
+	background: #D8E27F url(/images/containerlgreen_rnd.gif) 0 0 no-repeat;
+	padding: 5px 0 0 0;
+}
+
+.containerListlinks {
+	/* position: relative; */
+	z-index: 1000;
+	padding:5px;
+}
+
+.greenContainer {
+	background-image: url(/images/containernewgreen_head.gif);
+	background-color:#b0c701;
+	padding:3px 5px 5px;
+}
+
+.greenContainer .title { padding: 0 0px 0px 8px !important; }
+
+.container_new {
+	background: #D8E27F url(/images/containerlgreen_rnd_dark.gif) 0 0 no-repeat;
+	padding: 5px 5px 1px 5px;
+	margin-bottom:15px;
+}
+
+.blue,
+.bluecontainer { background: #009EDF url(/images/containerblue.gif) 0 0 no-repeat; }
+
+.headline-blue { color: #009EDF; }
+
+.blueuser,
+.bluecontaineruser {
+	background: #009EDF url(/images/containerblueuser.gif) 0 0 no-repeat;
+	padding: 5px;
+}
+
+.blueuser .listhead { padding-bottom:2px; }
+
+.blue .title,
+.blueuser .title,
+.blue .foot,
+.blueuser .foot a,
+.blue .foot a,
+.blueuser .foot a,
+.bluecontainer .title,
+.bluecontaineruser .title,
+.bluecontainer .foot,
+.bluecontaineruser .foot,
+.bluecontainer .foot a,
+.bluecontaineruser .foot a { color: white; }
+
+.orange,
+.orangecontainer { background: #FF6913 url(/images/orangecontainer.gif) 0 0 no-repeat; }
+
+.headline-orange { color: #FF6913; }
+
+.headline-green { color: #BED23B; }
+
+.orange .title,
+.orange .foot,
+.orange .foot a,
+.orangecontainer .title,
+.orangecontainer .foot,
+.orangecontainer .foot a { color: white; }
+
+.container .title,
+.channelsearch .title {
+	margin: 0;
+	padding: 0px 10px 5px 8px;
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+.container .foot {
+	text-align:right;
+	padding-right:2px;
+	margin-bottom: 3px;
+}
+
+.userhead {
+	background: #EEF4F9 url(/images/topshadeblue_teaser.gif) 0 0 repeat-x !important;
+	height: 85px;
+	width: 368px;
+}
+
+.userhead .box-in { padding: 5px; }
+
+.userheadHeight { height: 369px; }
+
+.detailBoxIn { zoom: 1; }
+
+.extuserhead .box-in { padding: 6px 10px 5px 10px; }
+
+/****************************************
+Section: List
+Element: Comments
+***************************************/
+
+.comments {
+	padding: 20px 12px 8px 8px;
+	zoom:1;
+}
+
+.commentsheadline {
+	background: transparent url(/images/comments.gif) 0 0 no-repeat;
+	padding-left: 38px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+	font-size: 1.3em;
+}
+
+.comment { margin-bottom: 10px; }
+
+.subcomment {
+	margin-bottom:10px;
+	padding-left:47px;
+	padding-top:7px;
+}
+
+.subcommentAbstandClear { padding-left: 47px; }
+
+.subcommentAbstandClear .subcomment {
+	margin:0px !important;
+	padding:0px !important;
+}
+
+.comment textarea { width: 260px; }
+
+.comment .leftpic { float: left; }
+
+.comment .righttext {
+	float: right;
+	width: 262px;
+}
+
+.comment .righttext_home {
+	float: right;
+	width: 300px;
+}
+
+.subcomment .leftpic { float: left; }
+
+.subcomment .righttext {
+	float: left;
+	width:200px;
+	padding-left: 20px;
+}
+
+.commentsHome .righttext_home {
+	float:right;
+	width:320px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+.commentsHome .comment { margin-bottom: 0; }
+
+.personalPageComments .righttext_home { width: 320px; }
+
+/****************************************
+Section: Channel
+Element: detailSuccess, TagBox
+***************************************/
+
+/* Temp Out
+#selectedtags .boxlgreen a {
+	background:transparent url(/images/tagbox_over.gif) no-repeat scroll 0 3px;
+	padding-left:15px;
+}
+
+#selectedtags .deleteFilter a {
+	background: none;
+	padding-left: 0;
+}
+
+*/
+
+#selectedtags p {
+	font-family:arial;
+	font-size:11px;
+}
+
+#selectedtags .boxlgreen { min-height: 50px; }
+
+.selectedTagBox {
+	border:1px solid #E7EFC5;
+	display:block;
+	padding:3px 7px 5px;
+}
+
+#random_lod { margin-left:0; }
+
+.cutBox {
+	height:137px;
+	overflow:hidden;
+	position:relative;
+}
+
+.listoftheday .righttext p { /*	position:absolute;
+	width:196px;*/ }
+
+.randomRefresh {
+	margin-left:282px;
+	margin-top:-55px;
+	z-index:1;
+}
+
+.hotlistbox { padding: 5px 5px; }
+
+.hotListBoxOutter { margin-top: 4px; }
+.activityBoxOutter { margin-top: 4px; }
+.itemBoxOutter { margin-top: 4px; }
+
+.container .box { width:357px; }
+
+#favoritelist {
+	padding-bottom:5px;
+	width: 100%;
+}
+
+#content_link_new { width:397px; }
+
+/****************************************
+Section: ListEdit
+Element: contentlayer
+***************************************/
+
+.addcontent .miniuserpic { margin-left:10px; }
+
+.addcontent {
+	position: relative;
+	background: #D2E69F url(/images/addcontentbg.jpg) 0 0 repeat-x;
+	border: 1px #E4EBD2 solid;
+	margin-top: 14px;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	padding: 10px 0 0 0;
+}
+
+.usercontent {
+	background: #EAF1F7;
+	border: 1px #E2EBD1 solid;
+	margin-bottom: 14px;
+	margin-left: 14px;
+	padding: 10px 10px 10px 10px !important;
+	width: 388px;
+}
+
+.usercontent p,
+.textbox p { margin-bottom: 10px; }
+
+.usercontent .leftpic,
+.addcontent .leftpic {
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+}
+
+.usercontent .lefttext,
+.addcontent .lefttext {
+	float: left;
+	margin-left: 10px;
+	width: 170px;
+}
+
+.addcontent .lefttext { width: auto; }
+
+.usercontent .righttext,
+.addcontent .righttext {
+	float: right;
+	width: 132px;
+	text-align: right;
+}
+
+.usercontent .lefttitle,
+.addcontent .lefttitle {
+	float: left;
+	width: 70px;
+}
+
+.usercontent .righttitledtext,
+.addcontent .righttitledtext {
+	float: right;
+	width: 235px;
+}
+
+.usercontent h2 img {
+	float: left;
+	margin-right:10px;
+}
+
+.usercontent .credits,
+.addcontent .credits { margin-top: 3px; }
+
+.usercontent .credits,
+.addcontent .credits { background: transparent url(/images/min7l.gif) no-repeat scroll 0 center; }
+
+.usercontent .credits,
+.addcontent .credits {
+	float:right;
+	margin-left:10px;
+	margin-top:2px;
+	padding-left:16px;
+}
+
+* html .usercontent p { width: 100%; }
+
+.picbox {
+	background-color: #F7FAFC;
+	border: 1px #E2E7EC solid;
+	padding: 17px 0px 18px 0px;
+	margin-top: 10px;
+}
+
+.piccontent {
+	position: relative;
+	float: left;
+	display:inline;
+	margin-right: 17px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 64px;
+}
+
+.piccontent_edit {
+	float:left;
+	width:64px;
+}
+
+.piccontent .btn {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+}
+
+#contentoverlay .headline {
+	margin: 35px 0px 17px 14px;
+	padding: 0px;
+}
+
+.credits { background:transparent url(/images/min7l.gif) no-repeat scroll 80px center; }
+
+.showUserContent .credits { background:transparent url(/images/min7l.gif) no-repeat scroll 0px center; }
+
+.showUserContent .credits p { padding-left: 0; margin-bottom: 0; }
+
+.showUserContent .miniuserpic { margin-bottom: 12px !important; }
+
+.showUserContent .picbox { margin-top: 0px !important; }
+
+#contentoverlay .showUserTeaser {
+	width: 200px;
+}
+
+#contentoverlay .showUserTeaser h3 {
+	width: 145x;
+	float: left;
+	margin-top: 2px;
+}
+
+.mcEditMode {
+	margin:10px 10px 17px 10px;
+	background-color: #C0C0C0;/*	padding-bottom: 28px; */
+}
+
+#content_text .mceEditor {
+	display: block;
+	padding: 10px;
+}
+
+#content_content_ifr { width: 364px !important; }
+
+.variousComments .credits p { padding-left: 0px; }
+
+.editListTitleOpen .lefttext {
+	background: #cecece;
+	width: 270px;
+}
+
+.editListTitleOpen .lefttextInner { height: 62px; }
+
+.editListTitleOpen .listBy { display: none; }
+
+.editListTitleOpen .dijitButtonNode {
+	background: none;
+	width: 70px;
+	border: none;
+}
+
+.editListTitleOpen .dijitButtonText { display: none; }
+
+.editListTitleOpen .dijitSpinnerUpArrowActive .dijitUpArrowButton,
+.editListTitleOpen .dijitSpinnerDownArrowActive .dijitDownArrowButton,
+.editListTitleOpen .dijitButtonActive .dijitButtonNode,
+.editListTitleOpen .dijitToggleButtonActive .dijitButtonNode,
+.editListTitleOpen .dijitDropDownButtonActive .dijitButtonNode,
+.editListTitleOpen .dijitComboButtonActive .dijitButtonContents,
+.editListTitleOpen .dijitDownArrowActive .dijitDownArrowButton,
+.editListTitleOpen .dijitComboBoxActive .dijitDownArrowButton,
+.editListTitleOpen .dijitStackController .dijitToggleButtonChecked .dijitButtonNode,
+.editListTitleOpen .dijitButtonHover .dijitButtonNode,
+.editListTitleOpen .dijitButtonNodeHover,
+.editListTitleOpen .dijitToggleButtonHover .dijitButtonNode,
+.editListTitleOpen .dijitButtonNode,
+.editListTitleOpen .dijitButtonContents,
+.editListTitleOpen .dijitDownArrowButton,
+.editListTitleOpen .dijitDownArrowButton,
+.editListTitleOpen .dijitSpinnerUpArrowHover .dijitUpArrowButton,
+.editListTitleOpen .dijitDownArrowButton { background:transparent none !important; }
+
+.editListTitleOpen .saveButton {
+	background:transparent url(/images/savebtn_ger_long.png) no-repeat scroll 0 0;
+	height:18px;
+	width:70px;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.editListTitleOpen .saveButton .dijitButtonNode,
+.editListTitleOpen .cancelButton .dijitButtonNode {
+	height: 16px;
+}
+
+.editListTitleOpen .dijitReset .cancelButton {
+	background:transparent url(/images/cancelbtn_ger_long.png) no-repeat scroll 0 0;
+	height:18px;
+	width:70px;
+}
+
+.dijitButtonNode .editListTitleOpen .dijitButtonDisabled,
+.editListTitleOpen .dijitDisabled {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.editListTitleOpen .cancelButton .dijitButtonNode {
+	border: 0;
+	width: 70px;
+}
+
+.editListTitleOpen .dijitTextBox {
+	background:white url(/images/inputbg.gif) repeat-x scroll 0 0;
+	border:1px solid #EDC59A;
+	color:#333333;
+	margin: 0px 5px 4px 5px;
+	padding:2px;
+	width: 255px !important;
+	height: 17px !important;
+	font-size:14px !important;
+}
+
+/****************************************
+Section: Profil
+Element: userSettings
+***************************************/
+
+#usersettings input {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#usersettings label {
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+.settingLabels {
+	height: 17px;
+	margin-bottom: 7px;
+}
+
+.settingsLabelsCity,
+.settingsLabelsEmail { margin-bottom: 8px; }
+
+#usersettings #UploadAvatarForm { margin-bottom: 10px; }
+
+.userhead .box-in #UploadAvatarForm {
+	width: 80px;
+	float: left;
+}
+
+#usersettings #image_edit { margin-top: 10px !important; }
+
+#userimage_images { padding-left: 0px; }
+
+#PasswordContainer { margin-top:50px; }
+
+/****************************************
+Section: Overall
+Element: containers
+***************************************/
+
+.listhead {
+	position: relative;
+	background-color: #fff;
+	padding-bottom: 4px;
+}
+
+.blueuser .listhead { background-color: #FFF; }
+
+.noBlueBackground .blueuser .listhead { background-color: #fff; }
+
+.listoflists .listhead {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.listhead .box-in {
+	background: #E4EFC3 url(/images/listheadbg.jpg) 0 0 repeat-x;
+	border-top: 1px #C3C3C4 dashed;
+	border-bottom: 1px #C3C3C4 dashed;
+	padding: 4px 4px 4px 9px;
+	min-height: 60px;
+	-height: 60px;
+}
+
+.listoflists .box-in { padding: 4px 4px 0px 9px; }
+
+.containerwborder { padding: 0 5px 1px 5px; }
+
+.relatedLister .container {
+	padding: 5px;
+	background-image: none;
+}
+
+.relatedLister .listhead { padding: 0px; }
+
+#listcontainer { padding: 5px; }
+
+.listcontainerSmall .listhead { padding-bottom: 0; }
+
+/****************************************
+Section: Favorites
+Element: Buttons
+***************************************/
+
+.btnmatchinguser {
+	display:block;
+	background: white url(/images/btnuserblue_inactive.gif) 0 0 no-repeat;
+	color: white !important;
+	height: 39px;
+	margin-bottom: 7px;
+	display: block;
+	padding-right: 25px;
+}
+
+.btnmatchinguser span {
+	display:block;
+	padding: 5px 8px 5px 8px;
+}
+
+.btnmatchinguser:hover { background-image: url(/images/btnuserblue_rollover.gif); }
+
+.btnmatchinguser:active { background-position: 0 0px !important; }
+
+.btnmylist {
+	display:block;
+	background: url(/images/btnlistorange_rollover.gif) 0 0 no-repeat;
+	color: white !important;
+	height: 39px;
+	margin-bottom: 6px;
+	padding-right: 45px;
+	cursor: pointer;
+}
+
+.btnmylist span {
+	display:block;
+	padding: 5px 8px 5px 8px;
+}
+
+.btnmylist:hover { background-position: 0 -41px; }
+
+.btnmylist:active { background-position: 0 0px !important; }
+
+.btnpublist {
+	display:block;
+	background: url(/images/btngreen_rollover.gif) 0 0 no-repeat;
+	color: white !important;
+	height: 39px;
+	width: 179px;
+	margin-bottom: 6px;
+}
+
+.btnpublist span {
+	display:block;
+	padding: 5px 8px 5px 8px;
+}
+
+.btnpublist:hover { background-position: 0 -41px; }
+
+.btnpublist:active { background-position: 0 0px !important; }
+
+.btnusercontact {
+	display:block;
+	background: url(/images/btnuserblue_rollover.gif) 0 0 no-repeat;
+	color: white !important;
+	height: 39px;
+	width: 179px;
+	margin-bottom: 6px;
+}
+
+.btnusercontact span {
+	display:block;
+	padding: 5px 8px 5px 8px;
+}
+
+.btnusercontact:hover { background-position: 0 -41px; }
+
+.btnusercontact:active { background-position: 0 0px; }
+
+.btnuserlist {
+	display:block;
+	background: url(/images/btnlistblue_rollover.gif) 0 0 no-repeat;
+	color: white !important;
+	height: 39px;
+	margin-bottom: 6px;
+	padding-right: 25px;
+}
+
+.btnuserlist span {
+	display:block;
+	padding: 5px 8px 5px 8px;
+}
+
+.btnuserlist:hover { background-position: 0 -41px; }
+
+/****************************************
+Section: Favorites
+Element: featuredLists, ListofTheList
+***************************************/
+
+/*
+deleted: sort list only on number
+.toplist .sortableList table tr td a.itemtitle { padding-left: 10px !important; cursor: move; }*/
+
+.toplist .sortableList table tr td a.itemtitle { padding-left: 10px !important; }
+
+.listoflists {
+	padding:5px;
+	width:358px;
+}
+
+.listoflists .listhead .rightpic { margin-top: 1px; }
+
+.listoflists .listhead .box-in { height: 70px; }
+
+.listoflists .WrapForFavoritesItem { border-bottom: 4px solid #fff; }
+
+.listoflists .WrapForListItems {
+	background-color:#FFFFFF;
+	padding-top:4px;
+}
+
+.similiarLists .listhead { margin-bottom: 0px;/*	padding-top:3px; */ }
+
+.similiarLists .box-in {
+	border-bottom:1px dashed #C3C3C4;
+	padding: 4px 4px 4px 9px;
+}
+
+.similiarLists .listoflists { border-bottom: 0; }
+
+.listHeadLine {
+	background: #ffffff;
+	height:4px;
+	margin-left:5px;
+	width:357px;
+}
+
+/****************************************
+Section:
+Element:
+***************************************/
+
+.itemPack { position: relative; }
+
+/****************************************
+Section: Favorites
+Element: detaillayer
+***************************************/
+
+.itemDescriptionInput {
+	height:22px;
+	left:57px;
+	position:absolute;
+	top:10px;
+	width:242px;
+}
+
+.itemDescriptionInput {
+	color:#666666;
+	font-size:1em !important;
+	height:14px;
+	margin-top:20px;
+}
+
+#itemDescBox {
+	padding-left:2px;
+	font-family:Verdana,sans-serif !important;
+	margin-top:0 !important;
+}
+
+.itemDescriptionInput input {
+	border: 0px!important;
+	color: none;
+	background: #ffffff;
+	width: 241px !important;
+	padding-left: 0px !important;
+}
+
+.dijitInlineEditBoxDisplayMode {
+	border: none !important;
+}
+
+.dijitInlineEditBoxDisplayModeHover {
+border:0px solid #FF6913 !important;
+/*
+color:#666666;
+font-family:Verdana,sans-serif !important;
+height:16px;
+font-size:1em;
+color:#06C;
+margin-top:0 !important;
+padding:2px 0 2px 16px;*/
+background-color: #e2ebf2;
+}
+
+
+.itemDescriptionInput input.dijitTextBox,
+.itemDescriptionInput input.dijitFocused {
+border:1px solid #FF6913 !important;
+color:#FF6913;
+font-family:Verdana,sans-serif !important;
+font-weight:bold !important;
+height:16px;
+margin-top:0 !important;
+padding:2px 0 2px 16px;
+background-color: #fff;
+}
+
+.itemDescriptionInput input.dijitFocused { padding-left: 0px !important; }
+
+.itemDescriptionInput .dijitButtonText { display: none; }
+
+.itemDescriptionInput .dijitSpinnerUpArrowActive .dijitUpArrowButton,
+.itemDescriptionInput .dijitSpinnerDownArrowActive .dijitDownArrowButton,
+.itemDescriptionInput .dijitButtonActive .dijitButtonNode,
+.itemDescriptionInput .dijitToggleButtonActive .dijitButtonNode,
+.itemDescriptionInput .dijitDropDownButtonActive .dijitButtonNode,
+.itemDescriptionInput .dijitComboButtonActive .dijitButtonContents,
+.itemDescriptionInput .dijitDownArrowActive .dijitDownArrowButton,
+.itemDescriptionInput .dijitComboBoxActive .dijitDownArrowButton,
+.itemDescriptionInput .dijitStackController .dijitToggleButtonChecked .dijitButtonNode,
+.itemDescriptionInput .dijitButtonHover .dijitButtonNode,
+.itemDescriptionInput .dijitButtonNodeHover,
+.itemDescriptionInput .dijitToggleButtonHover .dijitButtonNode,
+.itemDescriptionInput .dijitButtonNode,
+.itemDescriptionInput .dijitButtonContents,
+.itemDescriptionInput .dijitDownArrowButton,
+.itemDescriptionInput .dijitDownArrowButton,
+.itemDescriptionInput .dijitSpinnerUpArrowHover .dijitUpArrowButton,
+.itemDescriptionInput .dijitDownArrowButton { background:transparent none !important; }
+
+.itemDescriptionInput .saveButton {
+	position: absolute;
+	left:260px;
+	top: 3px;
+	/* padding-left:15px;*/
+	width: 16px;
+	height: 16px;
+	background: url(/images/arrow.png) top left no-repeat;
+	margin-top: 0px;
+}
+
+.itemDescriptionInput .dijitReset .cancelButton {
+	/* background:transparent url(/images/btndel-lgreen.gif) no-repeat scroll 0 0; */
+	background: none;
+	height:16px;
+	width:16px;
+}
+
+.dijitButtonNode .itemDescriptionInput .dijitButtonDisabled,
+.itemDescriptionInput .dijitDisabled {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.itemDescriptionInput .dijitButtonNode {
+	background: none;
+	border: none;
+	width:16px;
+	height:16px;
+}
+
+.itemDescriptionInput .cancelButton .dijitButtonNode {
+	border: 0;
+	width: 70px;
+}
+
+.userContentLoggedOut { padding: 10px 0px 0px 26px; }
+
+.userContentLoggedOut img {
+	float: left;
+	margin-right: 26px;
+	margin-bottom: 18px;
+}
+
+.editWholeList { padding: 14px 14px 5px 14px; }
+
+.editWholeList h2 { padding: 0px 0px 10px 0px !important; }
+
+/****************************************
+Section: Favorites
+Element: editmode Detaillayer
+***************************************/
+
+.editDetailLayer .mcEditMode {
+	width: 364px;
+	padding-top:10px;
+}
+
+.editDetailLayer .mcEditMode #content_content_ifr { width: 364px; }
+
+.editDetailLayer #content_text .mceEditor { padding: 0px; }
+
+.editDetailLayer .mcEditMode .mceStatusbar { visibility: hidden; }
+
+.editDetailLayer .mcEditMode .mceFirst .mceToolbar { display: none; }
+
+.editDetailLayer .mcEditMode .mceButtonNormal {
+	background:transparent none repeat scroll 0 0;
+	border:0 none;
+	margin:0;
+	padding:0;
+}
+
+.editDetailLayer .mcEditMode .mceToolbarContainer {
+	display:block;
+	left:0;
+	position:relative;
+	top:0;
+	width:100%;
+}
+
+.editTags {
+	margin-bottom: 17px;
+	/*	width:490px; */
+width:100%;
+}
+
+.editTags #tags_tags { width: 368px; }
+
+#content_tags { background-color: none !important;/* margin: 0px 10px; padding:10px 0px; */ }
+
+.editTags form { /*	margin-left:10px;
+
+width: 368px;*/ }
+
+.editTags form input { /*	margin:0px !important; */ }
+
+#tagdesc #tags_tags { width: 360px !important; }
+
+#content_tags div { margin-bottom: 17px; }
+
+/****************************************
+Section: New Lists
+Element: NewLists Summary,
+***************************************/
+
+#newFavoriteList { padding: 0px 5px 5px 5px; }
+
+.newListsSummary .activeLister {
+	width:178px;
+	border:0px;
+	float:right;
+	position: relative;
+}
+
+/****************************************
+Section: Detail Layer
+Element: Rating
+***************************************/
+
+.ratingBox {
+	padding-right:30px;
+	position:relative;
+	margin-top: 2px;
+}
+
+.ratingBox .ratingNr {
+	right: 0;
+	top: 1px;
+	position: absolute;
+}
+
+/****************************************
+Section: My 7Lists
+Element: yourRankInfoBox, completeProfile
+***************************************/
+
+.my7ListsInfoBox {
+	position: relative;
+	background-color: #F1F5DE;
+	border: 1px solid #e7efc5;
+	height: 98px;
+}
+
+.yourRankInfoBoxTitle {
+	padding: 3px 0 0 5px;
+	color:#F6701B;
+	font-family:Arial, sans-serif;
+	font-size:1.25em;
+	font-weight: bold;
+}
+
+.yourRankInfoBoxContent {
+	background-color: #fff;
+	height: 35px;
+	width: 176px;
+	position: absolute;
+	top: 23px;
+}
+
+.completeProfileBoxContent {
+	background-color: #fff;
+	height: 35px;
+	width: 176px;
+	position: absolute;
+	top: 23px;
+}
+
+.yourRankInfoBoxContent div {
+	font-family:Arial, sans-serif;
+	font-weight: bold;
+	background: transparent url(/images/7lists_middle_sized.gif) 10px 5px no-repeat;
+	padding: 8px 0 5px 35px;
+}
+
+.yourRankInfoBoxFoot {
+	position: absolute;
+	left: 5px;
+	bottom: 7px;
+	font-family:Arial, sans-serif;
+	font-weight: bold;
+}
+
+.user_home_setup_scala {
+	left:5px;
+	position:absolute;
+	top:21px;
+}
+
+.completeProfilePercent {
+	font-family:Arial, sans-serif;
+	font-weight: bold;
+	position: absolute;
+	right:2px;
+	top:3px;
+}
+
+.setupbar {
+	width: 135px;
+	height: 10px;
+	background: white url(/images/setupbar.gif) 0 0 repeat-x;
+	display:block;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.setupbarOutter {
+	position: absolute;
+	top: 30px;
+	left: 5px;
+}
+
+.setupbar span {
+	display:block;
+	height: 10px;
+	background: #009EDF url(/images/setupbar-active.gif) 0 0 repeat-x;
+}
+
+.optionButtonsProfile {
+	height: 17px;
+	width: 179px;
+	padding:4px 0px 0px 4px;
+	color: #009DDF;
+	cursor: pointer;
+}
+
+/****************************************
+Section: My Messages
+Element: Overall
+***************************************/
+
+.leftmainMsg {
+	display:inline;
+	float:left;
+	margin-top:17px;
+	width:300px;
+}
+
+.rightmainMsg {
+	display:inline;
+	float:right;
+	margin-top:17px;
+	width:425px;
+}
+
+#searchMsg .input { width: 200px; }
+
+#searchMsg h3 {
+	width: 150px;
+	padding-top:5px;
+}
+
+.msgimgcol {
+	width: 72px;
+	display: inline;
+}
+
+.msgtxtcol {
+	border-bottom:1px dashed #c3c3c4;
+	display:inline;
+	float:right;
+	margin-bottom:17px;
+	min-height:33px;
+	width:330px;
+	padding: 1px 30px 17px 0px;
+}
+
+.msgimgcolSend {
+	width: 72px;
+	float: left;
+	margin-top: 19px;
+}
+
+.msgtxtcolSend {
+	float:right;
+	width:342px;
+}
+
+#messageupdate {
+	border-bottom: 1px dashed #C3C3C4;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	height: 130px;
+}
+
+.contactsBox .showAllMessages {
+	padding-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #c3c3c4;
+	width: 177px;
+	height: 20px;
+}
+
+.messageFrom {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #c3c3c4;
+	width: 177px;
+}
+
+.messageFrom p { margin-bottom: 2px; }
+
+.messageFrom .msgcontacts { margin-left: 3px; }
+
+#searchMsg {
+	height: 40px;
+	border-bottom: 1px dashed #c3c3c4;
+	margin-bottom: 20px;
+}
+
+/****************************************
+Section: Search
+Element: Overall
+***************************************/
+
+.searchContainer { padding: 5px; }
+
+.searchContainer .outterBox { border-top: 4px solid white; }
+
+.search_pager {
+	float:right;
+	margin-top:5px;
+}
+
+.blueSearchUser { border-bottom: 5px solid white; }
+
+.help_headline {
+	background-image: url(/images/help_headline.png);
+	background-repeat: no-repeat;
+	padding-top: 17px;
+}
+
+/****************************************
+Section: Overall
+Element: Mastertooltip
+***************************************/
+
+#app__MasterTooltip_0,
+.dijitTooltip,
+.dijitTooltipContainer,
+.dijitTooltipContents,
+.dijitTooltipAbove,
+.dijitTooltipABLeft,
+.dijitTooltipABRight,
+.dijitTooltipConnector {
+	background: none !important;
+	border: none !important;
+}
+
+#app__MasterTooltip_0 .hotListBoxOutter {
+	height: 103px;
+	width: 300px;
+	margin-left: 0px;
+	margin-top: -25px;
+}
+
+#app__MasterTooltip_0 .activityBoxOutter {
+	height: 103px;
+	width: 300px;
+	margin-left: 0px;
+	margin-top: -25px;
+}
+
+#app__MasterTooltip_0 .itemBoxOutter {
+	height: 103px;
+	width: 300px;
+	margin-left: 0px;
+	margin-top: -25px;
+}
+
+#app__MasterTooltip_0 .dijitTooltipContainer {
+	margin-top: 25px;
+	padding: 0;
+}
+
+.dijitTooltipAbove {
+	margin-top: 20px;
+	padding-bottom: 0 !important;
+}
+
+.dijitTooltipABLeft .hotListBoxOutter {
+	background: transparent url(/images/tooltipgreen.gif) no-repeat 0 0;
+}
+
+.dijitTooltipABRight .hotListBoxOutter {
+	background: transparent url(/images/tooltipgreen_right.gif) no-repeat 0 0;
+}
+
+.dijitTooltipABLeft .activityBoxOutter {
+	background: transparent url(/images/tooltipgreen.gif) no-repeat 0 0;
+}
+
+.dijitTooltipABRight .activityBoxOutter {
+	background: transparent url(/images/tooltipgreen_right.gif) no-repeat 0 0;
+}
+
+.dijitTooltipABLeft .itemBoxOutter {
+	background: transparent url(/images/tooltipgreen.gif) no-repeat 0 0;
+}
+
+.dijitTooltipABRight .itemBoxOutter {
+	background: transparent url(/images/tooltipgreen_right.gif) no-repeat 0 0;
+}
+
+.dijitTooltipABLeft .itemBoxOutter {
+	background: transparent url(/images/tooltipgreen.gif) no-repeat 0 0;
+}
+
+.dijitTooltipABRight .itemBoxOutter {
+	background: transparent url(/images/tooltipgreen_right.gif) no-repeat 0 0;
+}
+
+#app__MasterTooltip_0 .hotListBoxOutter .rightfloat {
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+#app__MasterTooltip_0 .hotListBoxOutter .lefttext {
+	margin-left: 10px;
+	margin-top: 9px;
+}
+
+#app__MasterTooltip_0 .activityBoxOutter .rightfloat {
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+#app__MasterTooltip_0 .activityBoxOutter .lefttext {
+	margin-left: 10px;
+	margin-top: 9px;
+}
+
+#app__MasterTooltip_0 .itemBoxOutter .rightfloat {
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+#app__MasterTooltip_0 .itemBoxOutter .lefttext {
+	margin-left: 10px;
+	margin-top: 9px;
+}
+
+#app__MasterTooltip_0 .newUserToolTip {
+	background: transparent url(/images/tooltipblue.gif) repeat-x scroll right top;
+	height:45px;
+	margin-left:10px;
+	margin-top:89px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+#app__MasterTooltip_0 .newUserToolTip p {
+	border-left:1px solid #D6DDE3;
+	padding:5px 10px 3px 7px;
+}
+
+.imgTooltip {
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.imgTooltipText {
+	margin-top: 5px;
+	text-align: left;
+	font-size: .85em;
+}

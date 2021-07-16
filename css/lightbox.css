@@ -1,0 +1,403 @@
+
+.bgoverlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1264px;
+	height: 3113px;
+	background-color: #999;
+	z-index: 1986;
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter: alpha(opacity = 40);
+	margin:0px;
+	padding:0px;
+}
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+br { clear: both; }
+
+/* Problems with IE */
+#overlay1 {
+	z-index: 1986;
+	position:fixed;
+	height:100% !important;
+	width:100% !important;
+}
+* html #overlay1 {
+	position: absolute;
+}
+
+#overlay2 { z-index: 2100; }
+
+.layercontent {
+	text-align: left;
+	vertical-align: top;
+	padding: 0 2px 0 2px;
+}
+
+.pagelayer {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: none;
+}
+
+.tl div,
+.tr div,
+.bl div,
+.br div {
+	width: 10px;
+	height: 10px;
+	overflow: hidden;
+}
+
+.darklayer { z-index: 2001; }
+
+.darklayer td {
+	background-color: #4d4e49;
+	font-size: 12px;
+	color: white;
+}
+
+.darklayer .tl {
+	background: transparent url(/images/lightbox/layer-dark-tl.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-dark-tl.gif) 0 0 no-repeat;
+}
+
+.darklayer .tr {
+	background: transparent url(/images/lightbox/layer-dark-tr.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-dark-tr.gif) 0 0 no-repeat;
+}
+
+.darklayer .bl {
+	background: transparent url(/images/lightbox/layer-dark-bl.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-dark-bl.gif) 0 0 no-repeat;
+}
+
+.darklayer .br {
+	background: transparent url(/images/lightbox/layer-dark-br.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-dark-br.gif) 0 0 no-repeat;
+}
+
+.lightlayer { z-index: 2101; }
+
+.lightlayer td {
+	background-color: #e8e7e6;
+	font-size: 12px;
+	color: #333;
+}
+
+.lightlayer .tl {
+	background: transparent url(/images/lightbox/layer-light-tl.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-light-tl.gif) 0 0 no-repeat;
+}
+
+.lightlayer .tr {
+	background: transparent url(/images/lightbox/layer-light-tr.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-light-tr.gif) 0 0 no-repeat;
+}
+
+.lightlayer .bl {
+	background: transparent url(/images/lightbox/layer-light-bl.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-light-bl.gif) 0 0 no-repeat;
+}
+
+.lightlayer .br {
+	background: transparent url(/images/lightbox/layer-light-br.png) 0 0 no-repeat;
+	-background: transparent url(/images/lightbox/ie6/layer-light-br.gif) 0 0 no-repeat;
+}
+
+.refreshbtn {
+	background:transparent url(/images/lightbox/refresh-button.png) no-repeat scroll 0 0;
+	-background: transparent url(/images/lightbox/ie6/refresh-button.gif) 0 0 no-repeat;
+	clear:both;
+	color:#009DDF;
+	cursor:pointer;
+	float:right;
+	margin: 2px -3px 3px 0;
+	padding-right: 3px;
+	padding-top:4px;
+	height:17px;
+	width:17px;
+}
+
+.closebtn {
+	background:transparent url(/images/lightbox/close-button.png) no-repeat scroll 0 0;
+	-background: transparent url(/images/lightbox/ie6/close-button.gif) 0 0 no-repeat;
+	clear:both;
+	color:#009DDF;
+	cursor:pointer;
+	float:right;
+	margin: 2px -3px 3px 0;
+	padding-right: 3px;
+	padding-top:4px;
+	height:17px;
+	width:17px;
+}
+
+*+html #usersettings .closebtn {
+	margin-top:-10px !important;
+	padding-top:0px !important;
+}
+
+.rightnext {
+	background:transparent url(/images/arrow_right.png) no-repeat scroll right 3px;
+	clear:both;
+	cursor:pointer;
+	float:right;
+	height: 20px;
+	margin-top: 15px;
+	padding-top:4px;
+	display:block;
+	padding-right: 22px;
+	float:right;
+	right:-5px;
+}
+
+* html .inputbox-r { float: left; }
+
+.inputbox-l {
+	background: white url(/images/lightbox/input_white_l.gif) 0 0 no-repeat;
+	float: left;
+	padding-left: 10px;
+	height: 23px;
+	overflow: hidden;
+}
+
+.inputbox-r {
+	background: transparent url(/images/lightbox/input_white_r.gif) top  right no-repeat;
+	padding-right: 10px;
+	height: 23px;
+}
+
+.inputbox-l input {
+	border: 0;
+	padding-left: 0px;
+	margin-top: 3px;
+	width: 180px;
+	background-color: white;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+.inputboxerror { background-image: url(/images/lightbox/input_red_l.gif); }
+
+.inputboxerror .inputbox-r { background-image: url(/images/lightbox/input_red_r.gif); }
+
+.inputboxerror input { background-color: #eeacac; }
+
+.error_list li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+.error_list {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.textlabel {
+	display: block;
+	float: none;
+	padding-bottom: 2px;
+}
+
+.inputinfo {
+	color: #c5ee14;
+	padding-left: 15px;
+	background: transparent url(/images/lightbox/inputinfo.gif) 0px 1px no-repeat;
+	position: absolute;
+	margin-top: -30px;
+	width: 200px;
+}
+
+.hint,
+.inputinfo { font-size: 11px; }
+
+.radios { vertical-align: middle; }
+
+.radios input { vertical-align: -2px; }
+
+.tipbubble {
+	position: absolute;
+	width: 225px;
+	height: 50px;
+	display: none;
+	z-index: 2200;
+	overflow: hidden;
+}
+
+#infotip {
+	background-image: url(/images/lightbox/info-bub.png);
+	-background-image: url(/images/lightbox/ie6/info-bub.gif);
+	height: 75px;
+}
+
+#errortip {
+	background-image: url(/images/lightbox/error-bub.png);
+	-background-image: url(/images/lightbox/ie6/error-bub.gif);
+}
+
+* html .pagelayer .fl,
+* html .pagelayer .fr { zoom: 1; }
+
+.tipbubble table {
+	position: absolute;
+	width: 192px;
+	height: 47px;
+	left: 24px;
+	top: 1px;
+}
+
+.tipbubble td {
+	text-align: center;
+	vertical-align: middle;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+
+.labelerror label { color: rgb(246, 90, 108); }
+
+.lightbox_checkbox { float: right; }
+
+.lightbox_checkbox_label {
+	float: left;
+	margin-top: 2px;
+}
+
+.clr { clear: both; }
+
+#registration_form div.fl .radios ul li {
+	float: left;
+	list-style-type: none;
+}
+<!--
+IE Registrierungsprozess Hacks
+-->
+ *+html #urlLabelBox {
+ margin-left: -60px;
+ margin-top: 19px;
+}
+
+#urlLabelBox {
+	position: absolute;
+	margin-top: 4px;
+	_margin-top: 19px;
+	_margin-left: -60px;
+	color: #000;
+	font-family: Arial, sans-serif;
+	padding-left: 10px;
+}
+
+/* relative position */
+
+.lightbox_inner {
+	margin: 0 auto;
+	z-index: 1987;
+	position: relative;
+	opacity:1.0 !important;
+}
+
+.lightbox_container {
+	left:0;
+	position:fixed;
+	height:100%;
+	top:20%;
+	width:100% !important;
+	opacity: 0.9;
+}
+* html .lightbox_container {
+	position: absolute;
+}
+
+.ajax_indicator {
+	position: relative;
+	margin: 0 auto;
+}
+
+.buttonbar {
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+.buttonbar a { /*  color: white; */
+}
+
+.buttonbar a:hover { color: #00C8FA; }
+
+/* ###################################### ab hier RF ###################################### */
+
+.lightbox_inner h2 {
+	margin:0px 0px 20px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+.lightbox_inner label {
+	display:block;
+	width:150px;
+	float:left;
+}
+
+.lightbox_inner input { float:left; }
+
+.lightbox_inner p {
+	padding-top:10px;
+	padding-bottom: 3px;
+	display:block;
+}
+
+.lightbox_inner p .fbLogin {
+	background: transparent url(../images/facebook.png) 100% 50% no-repeat;
+	padding-right: 20px;
+}
+
+.lightbox_inner p br { clear:both; }
+
+.lightbox_inner .radio_list,
+.lightbox_inner .radio_list li,
+.lightbox_inner .radio_list label,
+.lightbox_inner .radio_list input { float:left; }
+
+.field { width:180px; }
+
+.ButtonElementRechts {
+	text-align:right;
+	padding:0px 0px 0px 0px !important;
+	position:relative;
+	height:20px;
+}
+
+p.ButtonElementRechts a {
+	padding:0px 22px 5px 0px;
+	position:relative;
+	right:0px;
+	top:0px;
+	background:transparent url(/images/arrow_right.png) no-repeat scroll right 0px;
+	height:25px;
+}
+
+p.ButtonElementRechts a:hover { color: #00C8FA; }
+
+.global_error p { padding-left:0px; }
+
+.error_input {
+	padding-left:150px;
+	color:#FF9817;
+	margin-top:-5px;
+}
+
+.lightbox_check label {
+	display:inline;
+	width:180px;
+	float:none;
+}
+
+/* debug */
+#mpCorePlugin_widget_lightbox_0 { }
