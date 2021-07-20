@@ -58,12 +58,12 @@
 	position: relative;
 	padding: 6px 0 10px 0;
 	margin-left: 15px;
-	background: transparent url(/images/basebg.gif) 0 0 repeat-x;
+	background: transparent url(../images/basebg.gif) 0 0 repeat-x;
 }
 
 #content {
 	padding: 15px;
-	background: transparent url(images/contentbg.gif) 0 0 repeat-x;
+	background: transparent url(../images/contentbg.gif) 0 0 repeat-x;
 }
 
 .contentEditor {
@@ -255,7 +255,7 @@ a {
 }
 
 .recentheadline {
-	background: transparent url(/images/recentthings.gif) no-repeat top left;
+	background: transparent url(../images/recentthings.gif) no-repeat top left;
 	padding-left: 38px;
 	padding-top: 10px;
 	margin-bottom: 15px;
@@ -2272,7 +2272,7 @@ h2.tab {
 }
 
 .tipbox {
-	background: #D2E69F url(/images/addcontentbg.jpg) 0 0 repeat-x;
+	background: #D2E69F url(../images/addcontentbg.jpg) 0 0 repeat-x;
 	margin: 0 -5px -1px -5px;
 	padding: 5px;
 }
@@ -2281,7 +2281,7 @@ h2.tab {
 
 .msgbody {
 	position: relative;
-	background-image: url(/images/mails_trenner.jpg);
+	background-image: url(../images/mails_trenner.jpg);
 	width: 416px;
 	background-repeat: no-repeat;
 }
@@ -2289,7 +2289,7 @@ h2.tab {
 .editbtn {
 	width: 33px;
 	height: 17px;
-	background: transparent url(/images/edit.png) 0px 0px no-repeat;
+	background: transparent url(../images/edit.png) 0px 0px no-repeat;
 	text-align: center;
 	color: #C0C0C0;
 }
@@ -3105,7 +3105,7 @@ td .more_pager {
 #channel_pager td { padding: 0 1px 0 1px; }
 
 .help_headline {
-	background-image: url(/images/help_headline.png);
+	background-image: url(../images/help_headline.png);
 	background-repeat: no-repeat;
 	padding-top: 10px;
 }

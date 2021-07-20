@@ -46,7 +46,7 @@ img {
   }
   
   .bodybg {
-    background: white url(/images/bodybg.gif) center top repeat-y;
+    background: white url(../images/bodybg.gif) center top repeat-y;
     text-align: left;
     margin: 0 auto;
     width: 810px;

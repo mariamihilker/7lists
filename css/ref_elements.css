@@ -769,7 +769,7 @@ Element: containers
 }
 
 .listhead .box-in {
-	background: #E4EFC3 url(/images/listheadbg.jpg) 0 0 repeat-x;
+	background: #E4EFC3 url(../images/listheadbg.jpg) 0 0 repeat-x;
 	border-top: 1px #C3C3C4 dashed;
 	border-bottom: 1px #C3C3C4 dashed;
 	padding: 4px 4px 4px 9px;
@@ -1351,7 +1351,7 @@ Element: Overall
 .blueSearchUser { border-bottom: 5px solid white; }
 
 .help_headline {
-	background-image: url(/images/help_headline.png);
+	background-image: url(../images/help_headline.png);
 	background-repeat: no-repeat;
 	padding-top: 17px;
 }
