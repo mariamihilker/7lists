@@ -59,7 +59,7 @@ dojo.require("app.main");
     
 <div class="mpDivertingMenu">
 
-<ul >
+<!-- <ul >
     <li class="naviParent naviParentNoAction naviLevel naviLevel1" has_children="1" is_leaf="0" is_active_initially="0" depth="1">
     <a class="naviParentLink" href="/">Home</a> 
     
@@ -112,26 +112,29 @@ dojo.require("app.main");
     
  
   </li>
-  </ul>
-</div>      </div>
+  </ul> -->
+</div>      
+</div>
 
 </div>
 
-<form method="get" name="searchform" onsubmit="return [&quot;&quot;, &quot;Suchen&quot;].indexOf(dojo.trim(dojo.byId(&quot;query&quot;).value)) == -1;" action="/search"><div class="navisearch">
+<!-- <form method="get" name="searchform" onsubmit="return [&quot;&quot;, &quot;Suchen&quot;].indexOf(dojo.trim(dojo.byId(&quot;query&quot;).value)) == -1;" action="/search"><div class="navisearch">
   <input type="text" name="query" value="Suchen" style="padding-left: 5px;" size="25" id="query" />  <script>mpCorePlugin.Form.clearer('query', 'Suchen', true);</script>
   <input type="image" src="images/navisearchbtn.gif" alt="suchen" alt="suchen" title="suchen" style="position: absolute; z-index: 1; top: 3px; left: 144px; width:13px; height:14px;" />
 </div>
-</form>
+</form> -->
  <div id="subnavi"></div>
 <div id="infobar">
-&nbsp;
+<!-- &nbsp;
   <div class="infohead" onClick="openInfoLayer();" style="cursor: pointer;"></div>
   <span id="sysinfos" class="sysinfos orangeregtext"></span>
 
   <a class="lbOn headinfofb orangeregtext" style="right: 175px" onclick="window.open(this.href); return false;" href="/facebook/login">Login über</a>&nbsp;
 
   <a class="lbOn headinfo orangeregtext" style="right: 115px;" onclick="new mpCorePlugin.widget.lightbox({ url: this.href, exit_url_success: &quot;/listjob&quot;, exit_url_abort: &quot;&quot;, onSuccess: function() {  }, onError: function() {  }, onClose: function() {  }  }, mpCorePlugin.Toolkit.createDivIn()); return false;" href="/login">Login</a>&nbsp;
-  <a class="lbOn headinfo orangeregtext" onclick="new mpCorePlugin.widget.lightbox({ url: this.href, exit_url_success: &quot;/homepage&quot;, exit_url_abort: &quot;&quot;, onSuccess: function() {  }, onError: function() {  }, onClose: function() {  }  }, mpCorePlugin.Toolkit.createDivIn()); return false;" href="/registration/start">Registrieren</a></div>
+  <a class="lbOn headinfo orangeregtext" onclick="new mpCorePlugin.widget.lightbox({ url: this.href, exit_url_success: &quot;/homepage&quot;, exit_url_abort: &quot;&quot;, onSuccess: function() {  }, onError: function() {  }, onClose: function() {  }  }, mpCorePlugin.Toolkit.createDivIn()); return false;" href="/registration/start">Registrieren</a> -->
+
+</div>
 
 
 
@@ -170,8 +173,9 @@ dojo.require("app.main");
 
   <div class="leftmain low" id="leftmain">
     <div style="float: left; width: 550px;">
-    <img src="images/listenjob.jpg" height="113" width="540" style="display: block;"/>
-<br/>
+    <!-- <img src="images/listenjob.jpg" height="113" width="540" style="display: block;"/> -->
+
+    <br/>
 <br/>
 <p>
 Wir hatten zusammen eine tolle Zeit hier. Nach all den Jahren musste 7Lists Community offline gehen.
@@ -210,19 +214,19 @@ Möchtest Du noch mal 7lists.de? Hier gehts lang. (hier muss Kevin ein Link einb
   </div>
 
   <div id="rightmain" class="rightmain low">
-  <div class="roundbox" style="position: relative; left: 190px;">
-    <div class="roundbox-in">
-      
-<h3>Beliebte Listen</h3>
-<ul class="linklist">
-    <li><a href="/list/die-besten-filme">Die besten Filme</a></li>
-    <li><a href="/list/die-besten-bcher">Die besten Bücher</a></li>
-    <li><a href="/list/top-cars">Top Cars</a></li>
-    <li><a href="/list/top-sportwagen">Top Sportwagen</a></li>
-    <li><a href="/list/bestes-deutsches-flaschbier">Bestes deutsches Flaschbier</a></li>
-  </ul>
-    </div>
-  </div>
+    <!-- <div class="roundbox" style="position: relative; left: 190px;">
+      <div class="roundbox-in">
+        
+  <h3>Beliebte Listen</h3>
+  <ul class="linklist">
+      <li><a href="/list/die-besten-filme">Die besten Filme</a></li>
+      <li><a href="/list/die-besten-bcher">Die besten Bücher</a></li>
+      <li><a href="/list/top-cars">Top Cars</a></li>
+      <li><a href="/list/top-sportwagen">Top Sportwagen</a></li>
+      <li><a href="/list/bestes-deutsches-flaschbier">Bestes deutsches Flaschbier</a></li>
+    </ul>
+      </div>
+    </div> -->
   </div>
 
 &nbsp;
