@@ -3654,3 +3654,11 @@ html*.neueListeAnlegenOverlay {
 	padding: 3px;
 	color: #666;
 }
+.fuf-links {
+	margin-top: 10px;
+	margin-bottom: 20px; 
+	line-height: 1.5;
+}
+.fuf-links li {
+	line-height: 1.8;
+}
